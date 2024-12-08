@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: black; /* Set background to black */
+    color: white; /* Change text color to white so it's visible on black background */
+}
+
+h1 {
+    color: rgb(232, 195, 195); /* Make the header text white */
+}
+
+.start-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(217, 110, 158);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: rgb(232, 195, 195);
+}
+
+/* Hidden Checkbox */
+.hidden-checkbox {
+    display: none; /* Completely hide the checkbox */
+}
+
+/* Hidden Box Styling */
+.hidden-box {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid rgb(217, 110, 158);
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+
+/* Show the box when checkbox is checked */
+.hidden-checkbox:checked + .start-button + .hidden-box {
+    display: block; /* Make the box visible */
+}
+
+/* Button Container */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Yes and No Buttons */
+.yes-button, .no-button {
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: 18px;
+    border: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.yes-button {
+    background-color: rgb(100, 200, 100); /* Green color for "Yes" */
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: rgb(80, 180, 80);
+}
+
+.no-button {
+    background-color: rgb(200, 80, 80); /* Red color for "No" */
+    color: white;
+}
+
+.no-button:hover {
+    background-color: rgb(180, 60, 60);
+}
+
+
+/* Button Container */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Yes and No Buttons */
+.yes-button, .no-button {
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: 18px;
+    border: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.yes-button {
+    background-color: rgb(100, 200, 100); /* Green color for "Yes" */
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: rgb(80, 180, 80);
+}
+
+.no-button {
+    background-color: rgb(200, 80, 80); /* Red color for "No" */
+    color: white;
+}
+
+.no-button:hover {
+    background-color: rgb(180, 60, 60);
+}
+
+* Button Container */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Yes and No Buttons */
+.yes-button, .no-button {
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: 18px;
+    border: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.yes-button {
+    background-color: rgb(100, 200, 100); /* Green color for "Yes" */
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: rgb(80, 180, 80);
+}
+
+.no-button {
+    background-color: rgb(200, 80, 80); /* Red color for "No" */
+    color: white;
+}
+
+.no-button:hover {
+    background-color: rgb(180, 60, 60);
+}
+
+
+
+/* Button Container */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Yes and No Buttons */
+.yes-button, .no-button {
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: 18px;
+    border: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.yes-button {
+    background-color: rgb(100, 200, 100); /* Green color for "Yes" */
+    color: white;
+}
+
+.yes-button:hover {
+    background-color: rgb(80, 180, 80);
+}
+
+.no-button {
+    background-color: rgb(200, 80, 80); /* Red color for "No" */
+    color: white;
+}
+
+.no-button:hover {
+    background-color: rgb(180, 60, 60);
+}
+/* Hidden Checkbox */
+.hidden-checkbox {
+    display: none; /* Completely hide the checkbox */
+}
+
+/* Hidden Box Styling */
+.hidden-box {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid rgb(221, 169, 93);
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+
+/* Show the box when checkbox is checked */
+.hidden-checkbox:checked + .start-button + .hidden-box {
+    display: block; /* Make the box visible */
+}
+
+.number-input-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.number-label {
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+
+.number-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(217, 110, 158);
+    border-radius: 5px;
+    width: 100px;
+    color: black;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(100, 150, 200); /* Blue color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: rgb(80, 130, 180);
+}
+
+
+
+
+

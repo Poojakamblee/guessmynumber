@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Guess My Number</h1>
+    <p>Please guess a number, enter it, and enter start button 
+    <br>Enjoy your game..
+    </p>
+    <button class="start-button">Start</button>
+    
+    <!-- Hidden Checkbox -->
+    <input type="checkbox" id="toggle-box" class="hidden-checkbox">
+    <label for="toggle-box" class="start-button">Think of a number</label>
+
+    <!-- Hidden Box -->
+    <div class="hidden-box">
+        <p>Think of a number</p>
+    </div>
+
+    <!-- Hidden Box -->
+    <div class="hidden-box">
+        <p>yes or no</p>
+        </div>
+        <div class="buttons">
+            <button class="yes-button">Yes</button>
+            <button class="no-button">No</button>
+        </div>
+        <p>* Is this number in between 10 and 20?</p>
+        
+    <!-- Hidden Box -->
+    <div class="hidden-box">
+        <p>yes or no</p>
+        </div>
+        <div class="buttons">
+            <button class="yes-button">Yes</button>
+            <button class="no-button">No</button>
+        </div>
+        <p>* Is the number closer to 10 or 20?</p>
+            
+    <!-- Hidden Box -->
+    <div class="hidden-box">
+        <p>yes or no</p>
+        </div>
+        <div class="buttons">
+            <button class="yes-button">Yes</button>
+            <button class="no-button">No</button>
+        </div>
+        <p>* Is the number is Odd or Even?</p>
+    <!-- Hidden Checkbox -->
+    <input type="checkbox" id="toggle-box" class="hidden-checkbox">
+    <label for="toggle-box" class="start-button">Enter your final number here</label>
+
+    <!-- Hidden Box -->
+    <div class="hidden-box">
+        <p>Enter your final number here</p>
+    </div>
+    <div class="number-input-container">
+        <form action="/submit" method="POST">
+            <label for="number-input" class="number-label">Enter a number:</label>
+            <input type="number" id="number-input" name="number" class="number-input" placeholder="0" required />
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
